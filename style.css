@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "Helvetica", sans-serif;
+    background-color: #454545;
+}
+
+.container {
+    display: flex;
+}
+
+.navigation {
+    background-color: #232527;
+    color: #bdbebe;
+    width: 360px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    line-height: 3em;
+}
+
+.content {
+    flex: 1;
+    padding: 30px;
+    line-height: 1.2em;
+    margin-left: 360px;
+    color: white;
+}
